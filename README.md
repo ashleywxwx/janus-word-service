@@ -1,6 +1,8 @@
 # Janus Word Service
 
-An Example REST API built with Express. See [Janus Core](https://github.com/AndrewBell/janus-core) for more details
+An Example REST API built with Express. See [Janus Core](https://github.com/AndrewBell/janus-core) for more details.
+
+This project was created in order to have some simple downstream services as part of the larger Janus project, therefore this code is not "production grade"
 
 ## Requirements
 
