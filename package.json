@@ -1,0 +1,27 @@
+{
+  "name": "janus-word-service",
+  "version": "1.0.0",
+  "description": "An Example REST API built with Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:noun": "WORD_TYPE=NOUN node index.js",
+    "start:verb": "WORD_TYPE=VERB node index.js",
+    "start:adjective": "WORD_TYPE=ADJECTIVE node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewBell/janus-word-service.git"
+  },
+  "author": "andrew@recursivechaos.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndrewBell/janus-word-service/issues"
+  },
+  "homepage": "https://github.com/AndrewBell/janus-word-service#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "faker": "^4.1.0"
+  }
+}

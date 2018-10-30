@@ -1,0 +1,24 @@
+version: "3"
+
+services:
+  noun-service:
+    build: .
+    image: janus/noun-service
+    ports:
+      - "3000:3000"
+    environment:
+      - WORD_TYPE=NOUN
+  verb-service:
+    build: .
+    image: janus/verb-service
+    ports:
+    - "3001:3000"
+    environment:
+    - WORD_TYPE=VERB
+  adjective-service:
+    build: .
+    image: janus/adjective-service
+    ports:
+    - "3002:3000"
+    environment:
+    - WORD_TYPE=ADJECTIVE
