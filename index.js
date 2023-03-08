@@ -1,5 +1,4 @@
 const express = require('express');
-const os = require('os');
 const faker = require('faker');
 
 const app = express();

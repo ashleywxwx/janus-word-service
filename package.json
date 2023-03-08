@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AndrewBell/janus-word-service.git"
+    "url": "git+https://github.com/ashleywxwx/janus-word-service.git"
   },
-  "author": "andrew@recursivechaos.com",
+  "author": "ashleywxwx@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AndrewBell/janus-word-service/issues"
+    "url": "https://github.com/ashleywxwx/janus-word-service/issues"
   },
-  "homepage": "https://github.com/AndrewBell/janus-word-service#readme",
+  "homepage": "https://github.com/ashleywxwx/janus-word-service#readme",
   "dependencies": {
     "express": "^4.16.3",
     "faker": "^4.1.0"
