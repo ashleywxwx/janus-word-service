@@ -16,9 +16,8 @@ this code is not "production grade"
 * [Windows via Git for Windows](http://gitforwindows.org/)
 * OSX & (Most) Linux users should already have Bash
 
-[Docker for Mac](https://store.docker.com/editions/community/docker-ce-desktop-mac)
+[Docker Desktop](https://docs.docker.com/desktop/)
 
-* Docker for Windows is also supported, but you will not be able to run Kubernetes locally
 
 ### Optional
 
